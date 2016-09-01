@@ -7,4 +7,22 @@
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_display"
+        android:orderInCategory="101"
+        android:title="@string/action_display"
+        android:onClick="sendMethod"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_message"
+        android:orderInCategory="102"
+        android:title="@string/action_message"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_imagechange"
+        android:orderInCategory="103"
+        android:title="@string/action_imagechange"
+        android:icon="@android:drawable/ic_menu_save"
+        android:onClick="Changeimg"
+        app:showAsAction="never" />
 </menu>
